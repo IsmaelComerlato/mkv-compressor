@@ -5,20 +5,18 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)]()
 
-> **My problem:** I collect movies and TV series in 4K locally (because I love that cinematic experience), but my hard drives keep filling up. My solution? Build a tool that compresses them without losing quality. **Bonus:** Learn Java while solving it. 🚀
+> **My problem:** I collect movies and TV series in 4K locally (because I love that cinematic experience), but my hard drives keep filling up. My solution? Build a tool that compresses them without losing quality.
 
 ---
 
-## 🤔 The Story
+## Why?
 
-I'm someone who loves having a curated collection of high-quality movies stored locally—no streaming lag, no subscription nonsense. But here's the catch: a single 4K movie takes 40–60GB. My external drives were crying.
+I'm someone who loves having a curated collection of high-quality movies stored locally—no streaming lag, no subscription nonsense. But here's the catch: a single 4K movie takes 15–40GB. My external drives were crying.
 
 So instead of paying for more storage, I decided to build this compressor in Java to:
 1. **Solve my real problem** (compress videos intelligently)
 2. **Master Java fundamentals** (OOP, system integration, file handling)
 3. **Create something useful** (and useful things get attention)
-
-This project taught me more about Java than any tutorial because I built it with real constraints and real motivation.
 
 ## 🎯 What This Project Shows
 
@@ -26,8 +24,6 @@ This project taught me more about Java than any tutorial because I built it with
 - **System Integration**: Executing external processes (FFmpeg) cleanly with ProcessBuilder
 - **Real-world Problem Solving**: Progress tracking, error handling, batch processing
 - **Clean Code**: Readable, maintainable Java with meaningful variable names and structure
-
-Not another CRUD app or tutorial clone. This solves **my** problem.
 
 ## 📋 Table of Contents
 
@@ -47,7 +43,7 @@ Not another CRUD app or tutorial clone. This solves **my** problem.
 **Problem:** 
 ```
 My Movie Collection:
-├── 4K Blu-ray rips (45GB each) ❌ Too big
+├── 4K Blu-ray rips (20GB each) ❌ Too big
 ├── External drives (getting full) 😢
 └── Streaming alternatives (no thanks)
 ```
@@ -56,13 +52,11 @@ My Movie Collection:
 ```
 MKV Compressor
 ├── H.265 compression (50%+ size reduction) ✅
-├── Quality still amazing (CRF 23) 🎬
-├── All audio tracks preserved 🔊
-├── Subtitles intact 📝
-└── Real-time progress (0–100%) ⏱️
+├── Quality still amazing (CRF 23) ✅
+├── All audio tracks preserved ✅
+├── Subtitles intact ✅
+└── Real-time progress (0–100%) ✅
 ```
-
-**Result:** My 50GB movie collection → 25GB. Same quality, half the space.
 
 ## ✨ Features
 
@@ -299,7 +293,7 @@ MIT License. See [LICENSE](LICENSE).
 
 ## 👨‍💻 Author
 
-**ISmael COmerlato**
+**Ismael Comerlato**
 
 - GitHub: [@IsmaelComerlato](https://github.com/IsmaelComerlato)
 - Email: ismacomerlato@gmail.com
@@ -311,4 +305,4 @@ MIT License. See [LICENSE](LICENSE).
 
 ---
 
-⭐ If this project helped you, consider giving it a star on GitHub!
+⭐ If this project helped you, consider giving it a star!
