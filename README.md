@@ -243,28 +243,14 @@ Why Maven matters:
 - How do I handle files with special characters in their names?
 - Should I ask the user 100 questions or sensible defaults?
 
-## � Use Cases
-
-**Why I built this for myself:**
+## � Use Case
 
 | Scenario | Before | After |
 |----------|--------|-------|
 | 4K movie (Dune) | 45 GB | 18 GB |
-| 10-episode series | 250 GB | 110 GB |
-| Anime collection | 80 GB | 30 GB |
-| Storage freed | Need external drive | All local, still fast |
 
 **Video quality:** Literally imperceptible to the human eye with CRF 23. You're watching H.265 compressed, which is what Netflix/Prime use anyway.
 
-## 🚀 Why This Project Matters (For Me)
-
-This isn't a "Hello World" or a tutorial clone. This is:
-- **Real problem:** I actually needed this (and still use it)
-- **Real learning:** I had to debug regex patterns, FFmpeg integration, CLI UX
-- **Real code:** Clean OOP, not overengineered, not undersimplified
-- **Real portfolio piece:** Shows I can think, code, and solve problems
-
-For recrutadores: This demonstrates that I don't just follow tutorials. I identify problems and build solutions.
 
 ## 🤝 Contributing
 
